@@ -1,0 +1,23 @@
+{
+  "name": "play-ground",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Dzsi",
+  "scripts": {
+    "jest": "jest --runInBand --watchAll",
+    "mocha": "mocha"
+  },
+  "dependencies": {
+    "dotenv-flow": "^3.1.0",
+    "express": "^4.16.4",
+    "moment-timezone": "^0.5.31",
+    "querystring": "^0.2.0",
+    "sinon": "^13.0.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "mocha": "^9.2.2",
+    "supertest": "^6.0.1",
+    "supertest-session": "^4.1.0"
+  }
+}
